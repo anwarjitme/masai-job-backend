@@ -1,0 +1,27 @@
+{
+  "name": "masai-job-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anwarjitme/masai-job-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anwarjitme/masai-job-backend/issues"
+  },
+  "homepage": "https://github.com/anwarjitme/masai-job-backend#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.2.4",
+    "nodemon": "^2.0.22"
+  }
+}
