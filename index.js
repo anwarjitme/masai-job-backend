@@ -5,7 +5,7 @@ const {  jobRoute}=require("./routes/jobRoute")
 const app=express()
 
 app.get("/",(req,res)=>{
-          res.send("Backend API is ready")
+          res.send({"Route":"/jobs","sort":"asc/desc","role(filter)":"Fontent/Backend/FullStack"});
 })
 app.use(express.json());
 app.use("/",jobRoute)
